@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "createPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/protocols/bep/XSHIB/XSHIB.sol": "IDEXFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/protocols/bep/XSHIB/XSHIB.sol": {
+			"keccak256": "0x057a4f98c645da994d9cc1b1a110b0bbcb826464fce2759659f80eb0e4f40b30",
+			"license": "No License (None)",
+			"urls": [
+				"bzz-raw://cb541d9d0c3d86de052bf02f35e5cc6aa51b3db8747bb3d232c8db2e17f79706",
+				"dweb:/ipfs/QmQatQrwNeSeoYRGbPNQ18CmYVFYU3uPf4UT52tfpXrpj7"
+			]
+		}
+	},
+	"version": 1
+}
